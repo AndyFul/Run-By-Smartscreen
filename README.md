@@ -9,7 +9,8 @@ Why 'Run By SmartScreen'?
 This technology is only half-way adopted in Windows. SmartScreen on the run can check only executables with "Mark of the Web", that is attached to files after downloading from the Internet by popular Web Browsers, Windows Store or Windows OneDrive. There are many cases when files do not have "Mark of the Web", and then SmartScreen Filter simply ignore them on the run (see REMARKS).
 
 
-INSTALLATION 
+INSTALLATION
+
 'Run By Smartscreen' works only with Windows 8 and higher versions. 
 Unzip the RunBySmartscreen.zip and copy the right executable file to the 'C:\Windows\' folder. 
 The RunBySmartScreen(x64).exe file is for 64Bit and RunBySmartScreen(x86).exe is for 32Bit Windows system.
@@ -19,6 +20,7 @@ If the file is located in the System Space (inside C:\Windows, C:\Program Files,
 
 
 REMARKS
+
 The SmartScreen Filter in Windows 8+ allows some vectors of infection listed below:
 A) You have got the executable file (BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, PIF, SCR and VBE) using:
 * the downloader or torrent application (EagleGet, utorrent etc.);
@@ -40,5 +42,6 @@ HKEY_CLASSES_ROOT\*\shell\Run By SmartScreen\
 
 
 PROGRAM INFO
+
 'Run By Smartscreen' was coded and compiled with AutoIt v3.3.14.2 (see RunBySmartscreen.au3 source file).
 This is the first beta version.
