@@ -6,7 +6,6 @@ Why the SmartScreen?
 The SmartScreen technology is one of the best for fighting 0-day malware files.
 
 Why 'Run By SmartScreen'?
-
 This technology is only half-way adopted in Windows. SmartScreen on the run can check only executables with "Mark of the Web", that is attached to files after downloading from the Internet by popular Web Browsers, Windows Store or Windows OneDrive. There are many cases when files do not have "Mark of the Web", and then SmartScreen Filter simply ignore them on the run (see REMARKS).
 
 
