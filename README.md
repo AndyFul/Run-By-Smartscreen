@@ -3,7 +3,6 @@
 'Run By Smartscreen' is a very simple idea to run new executable files with SmartScreen check using right click Explorer context menu. It covers in a smart way file execution in the User Space (outside C:\Windows, C:\Program Files, C:\Program Files (x86)), that is welcome because dropping files to the User Space is not guarded by UAC. 
 
 Why the SmartScreen?
-
 The SmartScreen technology is one of the best for fighting 0-day malware files.
 
 Why 'Run By SmartScreen'?
