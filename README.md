@@ -14,11 +14,10 @@ INSTALLATION
 'Run By Smartscreen' works only with Windows 8 and higher versions.
 Unzip the RunBySmartscreen.zip - there should be 4 files in unpacked RunBySmartscreen folder: RunBySmartscreen.au3 (source script), RunBySmartScreen(x64).exe (for 64Bit system), RunBySmartScreen(x86).exe (for 32Bit system), and RunBySmartscreenHelp.txt (help file).
 
-For 64Bit OS:
+For 64Bit OS
 
-1. Copy RunBySmartScreen(x64).exe to C:\Windows, and next run this file with Administrative Rights ('Run As Administrator' option in Explorer context menu).
-
-2.After that, the 'Run by SmartScreen' option should appear in Explorer context menu. If not, the log out/log on procedure should help.
+Copy RunBySmartScreen(x64).exe to C:\Windows, and next run this file with Administrative Rights ('Run As Administrator' option in Explorer context menu).
+After that, the 'Run by SmartScreen' option should appear in Explorer context menu. If not, the log out/log on procedure should help.
 
 For 32Bit OS
 
