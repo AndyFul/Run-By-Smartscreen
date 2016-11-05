@@ -10,6 +10,7 @@ This technology is only half-way adopted in Windows. SmartScreen on the run can 
 
 
 INSTALLATION
+
 'Run By Smartscreen' works only with Windows 8 and higher versions.
 Unzip the RunBySmartscreen.zip - there should be 4 files in unpacked RunBySmartscreen folder: RunBySmartscreen.au3 (source script), RunBySmartScreen(x64).exe (for 64Bit system), RunBySmartScreen(x86).exe (for 32Bit system), and RunBySmartscreenHelp.txt (help file).
 
@@ -23,6 +24,7 @@ Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 Running one of above executables adds/removes "Run By SmartScreen" option to Explorer context menu. This option forces file execution with SmartScreen check for: BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, SCR and VBE files located in the User Space. Files with other extensions, will not be allowed to execute. If the file is located in the System Space (inside C:\Windows, C:\Program Files, C:\Program Files (x86)), it is executed without SmartScreen check.
 
 UNINSTALLATION
+
 For 64 Bit OS
 Navigate to RunBySmartScreen(x64).exe in C:\Windows folder, and run this file with Administrative Rights. The message:
 "Do you want to have 'Run By SmartScreen' option in Explorer context menu?" will be shown.
