@@ -15,10 +15,13 @@ INSTALLATION
 Unzip the RunBySmartscreen.zip - there should be 4 files in unpacked RunBySmartscreen folder: RunBySmartscreen.au3 (source script), RunBySmartScreen(x64).exe (for 64Bit system), RunBySmartScreen(x86).exe (for 32Bit system), and RunBySmartscreenHelp.txt (help file).
 
 For 64Bit OS:
+
 1. Copy RunBySmartScreen(x64).exe to C:\Windows, and next run this file with Administrative Rights ('Run As Administrator' option in Explorer context menu).
+
 2.After that, the 'Run by SmartScreen' option should appear in Explorer context menu. If not, the log out/log on procedure should help.
 
 For 32Bit OS
+
 Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 
 Running one of above executables adds/removes "Run By SmartScreen" option to Explorer context menu. This option forces file execution with SmartScreen check for: BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, SCR and VBE files located in the User Space. Files with other extensions, will not be allowed to execute. If the file is located in the System Space (inside C:\Windows, C:\Program Files, C:\Program Files (x86)), it is executed without SmartScreen check.
@@ -26,10 +29,13 @@ Running one of above executables adds/removes "Run By SmartScreen" option to Exp
 UNINSTALLATION
 
 For 64 Bit OS
+
 Navigate to RunBySmartScreen(x64).exe in C:\Windows folder, and run this file with Administrative Rights. The message:
 "Do you want to have 'Run By SmartScreen' option in Explorer context menu?" will be shown.
 Chose NO buton to disable it.
+
 For 32Bit OS
+
 Do as in the case of 64Bit, but chose RunBySmartScreen(x86).exe .
 
 After that the executable can be deleted.
