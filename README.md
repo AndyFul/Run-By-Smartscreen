@@ -69,4 +69,5 @@ HKEY_CLASSES_ROOT\*\shell\Run By SmartScreen\
 PROGRAM INFO
 
 'Run By Smartscreen' was coded and compiled with AutoIt v3.3.14.2 (see RunBySmartscreen.au3 source file).
-This is the first beta version.
+This is the second beta version, updated in 6 November 2016.
+In the new version the write access check is added, to avoid running files without SmartScreen check, if the program could not add 'Mark of the Web' (ACL or another write access restrictions).
