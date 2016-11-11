@@ -8,7 +8,7 @@ The SmartScreen technology is one of the best for fighting 0-day malware files.
 
 Why 'Run By SmartScreen'?
 
-This technology is only half-way adopted in Windows. SmartScreen on the run can check executables with "Mark of the Web", that is attached to files after downloading from the Internet by popular Web Browsers, Windows Store or Windows OneDrive. There are many cases when files do not have "Mark of the Web", and then SmartScreen Filter simply ignore them on the run (see REMARKS).
+This technology is only half-way adopted in Windows. SmartScreen App Reputation on run can check executables with "Mark of the Web", that is attached to files after downloading from the Internet by popular Web Browsers, Windows Store or Windows OneDrive. There are many cases when files do not have "Mark of the Web", and then SmartScreen Filter simply ignore them on the run (see REMARKS).
 
 
 INSTALLATION
@@ -21,13 +21,15 @@ For 64Bit OS
 Copy RunBySmartScreen(x64).exe to C:\Windows, and then run this file with Administrative Rights ('Run As Administrator' option in Explorer context menu).
 After that, the 'Run by SmartScreen' option should appear in Explorer context menu. If not, the log out/log on procedure should help.
 Please do not change the name and the path of  RunBySmartScreen(x64).exe - they are hard-coded in the program, and are necessary to its proper functioning. 
-After installation, the unzipped RunBySmartscreen folder can be deleted. Only RunBySmartScreen(x64).exe in C:\Windows folder is needed to make 'Run By Smartscreen' work.
+After installation, the unzipped RunBySmartscreen folder can be deleted. Only RunBySmartScreen(x64).exe in C:\Windows folder is needed to make 'Run By Smartscreen' work. 
+Trying to keep things simple, I made RunBySmartScreen(x64).exe to be Installer/Uninstaller/WorkingExe at the same time.
 
 For 32Bit OS
 
 Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 
-Running one of above executables adds/removes "Run By SmartScreen" option to Explorer context menu. This option forces file execution with SmartScreen check for: BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, SCR and VBE files, located in the User Space. Files with other extensions will not be allowed to execute. If the file is located in the System Space (inside C:\Windows, C:\Program Files, C:\Program Files (x86)), then it is executed without SmartScreen check.
+Running one of above executables adds/removes "Run By SmartScreen" option in Explorer context menu. This option forces file execution with SmartScreen check for: BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, SCR and VBE files, located in the User Space. Files with other extensions will not be allowed to execute. If the file is located in the System Space (inside C:\Windows, C:\Program Files, C:\Program Files (x86)), then it is executed without SmartScreen check.
+
 
 UNINSTALLATION
 
@@ -35,13 +37,13 @@ For 64 Bit OS
 
 Navigate to RunBySmartScreen(x64).exe in C:\Windows folder, and run this file with Administrative Rights. The message:
 "Do you want to have 'Run By SmartScreen' option in Explorer context menu?" will be shown.
-Choose NO button to disable it.
+Choose NO button to disable it. After that,	 the executable can be deleted.
 
 For 32Bit OS
 
 Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 
-After that the executable can be deleted.
+
 
 REMARKS
 
