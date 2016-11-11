@@ -20,7 +20,8 @@ For 64Bit OS
 
 Copy RunBySmartScreen(x64).exe to C:\Windows, and then run this file with Administrative Rights ('Run As Administrator' option in Explorer context menu).
 After that, the 'Run by SmartScreen' option should appear in Explorer context menu. If not, the log out/log on procedure should help.
-Please do not change the name and the path of  RunBySmartScreen(x64).exe - they are hard-coded in the program, and are necessary to its proper functioning.
+Please do not change the name and the path of  RunBySmartScreen(x64).exe - they are hard-coded in the program, and are necessary to its proper functioning. 
+After installation, the unzipped RunBySmartscreen folder can be deleted. Only RunBySmartScreen(x64).exe in C:\Windows folder is needed to make 'Run By Smartscreen' work.
 
 For 32Bit OS
 
