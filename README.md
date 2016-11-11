@@ -23,6 +23,7 @@ For 32Bit OS
 
 Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 
+*****
 
 Running one of above executables adds/removes "Run By SmartScreen" option in Explorer context menu. This option forces file execution with SmartScreen check for: BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, SCR and VBE files, located in the User Space. 
 
