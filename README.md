@@ -27,12 +27,14 @@ Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 Running one of above executables adds/removes "Run By SmartScreen" option in Explorer context menu. This option forces file execution with SmartScreen check for: BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, SCR and VBE files, located in the User Space. 
 
 From version 1.0.3 the program is prepared to help inexperienced users to open all new files. If the user tries to open the file with "Run By SmartScreen" the program works as enumerated below:
+
 1. Files located in the System Space (= inside C:\Windows, C:\Program Files, C:\Program Files (x86)) are opened normally, without SmartScreen check.
 2. Files located in the User Space with somewhat dangerous extensions (not supported by SmartScreen), are not allowed to open, and the program shows an alert (similar to Software Restriction Policies). 
 3. The executables located in the User Space are checked by SmartScreen before the run.
 4. Other files (media, photos, documents, etc.) are opened normally, without SmartScreen check.
 
 The program has hard-coded list of dangerous extensions (not supported by SmartScreen App Reputation on run):
+
 WSH, WSF, WSC, WS, VBS, VB, URL, SHS, SCT, REG, PS1, PIF, PCD, MST, MSP, MSC, MDE, MDB, JS, JAR, ISP, INS, INF, HTA, HLP, CRT, CHM, BAS, ADP, ADE
 
 
@@ -50,6 +52,7 @@ Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 
 
 REMARKS
+
 The SmartScreen Filter in Windows 8+ allows some vectors of infection listed below:
 
 A) You have got the executable file (BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, PIF, SCR and VBE) using:
