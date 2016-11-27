@@ -68,7 +68,7 @@ B) You have run the executable file with runas.exe (Microsoft), AdvancedRun (Nir
 
 Registry changes:
 
-HKCR\*\shell\Run By SmartScreen\
+HKCR\\*\shell\Run By SmartScreen\
 
 HKCR\WSHFile!IsShortcut
 
