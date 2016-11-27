@@ -23,27 +23,23 @@ For 32Bit OS
 
 Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 
-*****
-
-Running one of above executables adds/removes "Run By SmartScreen" option in Explorer context menu. This option forces file execution with SmartScreen check for: BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, SCR and VBE files, located in the User Space. 
+Running one of above executables adds/removes "Run By SmartScreen" option in Explorer context menu. This option forces file execution with SmartScreen check for: BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, SCR and VBE files, located in the User Space. For DLL and OCX files 'Run By Smartscreen' adds only 'Mark of the Web'. Those files cannot be run directly from Explorer, but now running them by any program will trigger the SmartScreen check. 
 
 From version 1.0.3 the program is prepared to help inexperienced users to open all new files. If the user tries to open the file with "Run By SmartScreen" the program works as enumerated below:
 
 1. Files located in the System Space (= inside C:\Windows, C:\Program Files, C:\Program Files (x86)) are opened normally, without SmartScreen check.
 2. Files located in the User Space with somewhat dangerous extensions (not supported by SmartScreen), are not allowed to open, and the program shows an alert (similar to Software Restriction Policies). 
-3. The executables located in the User Space are checked by SmartScreen before the run.
-4. Other files (media, photos, documents, etc.) are opened normally, without SmartScreen check.
+3. Shortcuts with command line in 'Target' area are always blocked, and the program shows an alert.
+4. The executables located in the User Space are checked by SmartScreen before the run.
+5. Other files (media, photos, documents, etc.) are opened normally, without SmartScreen check.
 
 The program has hard-coded list of dangerous extensions (not supported by SmartScreen App Reputation on run):
-
-WSH, WSF, WSC, WS, VBS, VB, URL, SHS, SCT, REG, PS1, PIF, PCD, MST, MSP, MSC, MDE, MDB, JS, JAR, ISP, INS, INF, HTA, HLP, CRT, CHM, BAS, ADP, ADE
-
+WSH, WSF, WSC, WS, VBS, VB, SHS, SCT, REG, PS1, PCD, MST, MSP, MSC, MDE, MDB, JS, JAR, ISP, INS, INF, HTA, HLP, CRT, CHM, BAS, ADP, ADE
 
 
 UNINSTALLATION
 
 For 64 Bit OS
-
 Navigate to RunBySmartScreen(x64).exe in C:\Windows folder, and run this file with Administrative Rights. The message: "Do you want to have 'Run By SmartScreen' option in Explorer context menu?" will be shown. Choose NO button to disable it. After that, the executable can be deleted.
 
 For 32Bit OS
@@ -51,12 +47,11 @@ For 32Bit OS
 Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 
 
-
 REMARKS
 
 The SmartScreen Filter in Windows 8+ allows some vectors of infection listed below:
 
-A) You have got the executable file (BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, PIF, SCR and VBE) using:
+A) You have got the executable file (BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, SCR and VBE) using:
 
 * the downloader or torrent application (EagleGet, utorrent etc.);
 * container format file (zip, 7z, arj, rar, etc.);
@@ -71,10 +66,11 @@ B) You have run the executable file with runas.exe (Microsoft), AdvancedRun (Nir
 
 Registry changes:
 
-HKEY_CLASSES_ROOT*\shell\Run By SmartScreen\
-
+HKCR\*\shell\Run By SmartScreen\
+HKCR\WSHFile!IsShortcut
+HKCR\WSHFile!NoIsShortcut
 
 PROGRAM INFO
 
 'Run By Smartscreen' was coded and compiled with AutoIt v3.3.14.2 (see RunBySmartscreen.au3 source file). 
-This is the third beta version, updated: 11 November 2016.
+This is the the stable version 2.0.0, updated: 26 November 2016.
