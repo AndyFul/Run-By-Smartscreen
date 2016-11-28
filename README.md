@@ -34,7 +34,7 @@ This program is prepared to help inexperienced users to open all new files. If t
 4. Shortcuts with command line in 'Target' area are always blocked, and the program shows an alert.
 5. Other files (media, photos, documents, etc.) are opened normally, without SmartScreen check.
 
-The program has hard-coded list of dangerous extensions (not supported by SmartScreen App Reputation on run):
+The program has hard-coded list of dangerous extensions (not supported by 'SmartScreen App Reputation on Run'):
 
 WSH, WSF, WSC, WS, VBS, VB, SHS, SCT, REG, PS1, PCD, MST, MSP, MSC, MDE, MDB, JS, JAR, ISP, INS, INF, HTA, HLP, CRT, CHM, BAS, ADP, ADE
 
