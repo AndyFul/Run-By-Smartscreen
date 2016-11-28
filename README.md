@@ -29,12 +29,9 @@ Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 "Run By SmartScreen" is prepared to help inexperienced users to open all new files. If the user tries to open the file with "Run By SmartScreen" it works as enumerated below:
 
 1. Files located in the System Space (= inside C:\Windows, C:\Program Files, C:\Program Files (x86)) are opened normally, without SmartScreen check.
-2. Files located in the User Space with somewhat dangerous extensions (not supported by SmartScreen), are not allowed to open (similar to Software Restriction Policies), and the program shows an alert. 
-
-3. Shortcuts with command line in 'Target' area are always blocked, and the program shows an alert.
-
-4. The executables located in the User Space (= outside C:\Windows, C:\Program Files, C:\Program Files (x86)) are checked by SmartScreen before the run.
-
+2. The executables located in the User Space (= outside C:\Windows, C:\Program Files, C:\Program Files (x86)) are checked by SmartScreen before the run.
+3. Files located in the User Space with somewhat dangerous extensions (not supported by SmartScreen), are not allowed to open (similar to Software Restriction Policies), and the program shows an alert. 
+4. Shortcuts with command line in 'Target' area are always blocked, and the program shows an alert.
 5. Other files (media, photos, documents, etc.) are opened normally, without SmartScreen check.
 
 The program has hard-coded list of dangerous extensions (not supported by SmartScreen App Reputation on run):
