@@ -1,6 +1,6 @@
-#Run-By-Smartscreen
+Run-By-Smartscreen
 
-'Run By Smartscreen' is a very simple idea to open new files with SmartScreen check using right click Explorer context menu. It covers in a smart way file opening in the User Space ( = everything outside 'C:\Windows', 'C:\Program File's, 'C:\Program Files (x86)'), that is welcome because dropping files to the User Space is not guarded by UAC.
+'Run By Smartscreen' is a very simple idea to open new files with SmartScreen check using right click Explorer context menu. It covers in a smart way file opening in the User Space ( = everything outside 'C:\Windows', 'C:\Program Files', 'C:\Program Files (x86)'), that is welcome because dropping files to the User Space is not guarded by UAC.
 
 Why the SmartScreen?
 
@@ -8,7 +8,7 @@ The SmartScreen technology is one of the best for fighting 0-day malware files.
 
 Why 'Run By SmartScreen'?
 
-This technology is only half-way adopted in Windows. 'SmartScreen App Reputation on Run' can check executables with 'Mark of the Web', that is attached to files after downloading from the Internet by popular Web Browsers, Windows Store or Windows OneDrive. There are many cases when files do not have 'Mark of the Web', and then SmartScreen Filter simply ignore them on the run (see REMARKS).
+This technology is only half-way adopted in Windows. 'SmartScreen App Reputation on Run' can check executables with 'Mark of the Web', that is attached to files after downloading from the Internet by popular Web Browsers, Windows Store or Windows OneDrive. Yet, there are many cases when files do not have 'Mark of the Web', and then SmartScreen Filter simply ignore them on the run (see REMARKS).
 
 
 INSTALLATION
@@ -26,7 +26,7 @@ Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 
 "Run By SmartScreen" option in Explorer context menu forces file execution with SmartScreen check for: BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, SCR and VBE files, located in the User Space. For DLL and OCX files 'Run By Smartscreen' adds only 'Mark of the Web'. Those files cannot be run directly from Explorer, but now running them by any program will trigger the SmartScreen check. 
 
-"Run By SmartScreen" is prepared to help inexperienced users to open all new files. If the user tries to open the file with "Run By SmartScreen" it works as enumerated below:
+This program is prepared to help inexperienced users to open all new files. If the user tries to open the file with "Run By SmartScreen" it works as enumerated below:
 
 1. Files located in the System Space (= inside C:\Windows, C:\Program Files, C:\Program Files (x86)) are opened normally, without SmartScreen check.
 2. The executables located in the User Space (= outside C:\Windows, C:\Program Files, C:\Program Files (x86)) are checked by SmartScreen before the run.
@@ -85,4 +85,4 @@ HKCR\WSHFile!NoIsShortcut
 PROGRAM INFO
 
 'Run By Smartscreen' was coded and compiled with AutoIt v3.3.14.2 (see RunBySmartscreen.au3 source file). 
-This is the the stable version 2.0.1, updated: 27 November 2016.
+This is the the stable version 2.0.1, updated: 28 November 2016.
