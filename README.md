@@ -38,6 +38,7 @@ Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 5. Other files (media, photos, documents, etc.) are opened normally, without SmartScreen check.
 
 The program has hard-coded list of dangerous extensions (not supported by SmartScreen App Reputation on run):
+
 WSH, WSF, WSC, WS, VBS, VB, SHS, SCT, REG, PS1, PCD, MST, MSP, MSC, MDE, MDB, JS, JAR, ISP, INS, INF, HTA, HLP, CRT, CHM, BAS, ADP, ADE
 
 
