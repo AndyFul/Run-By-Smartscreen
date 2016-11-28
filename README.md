@@ -1,6 +1,6 @@
 #Run-By-Smartscreen
 
-'Run By Smartscreen' is a very simple idea to open new files with SmartScreen check using right click Explorer context menu. It covers in a smart way file opening in the User Space ( = everything outside C:\Windows, C:\Program Files, C:\Program Files (x86)), that is welcome because dropping files to the User Space is not guarded by UAC.
+'Run By Smartscreen' is a very simple idea to open new files with SmartScreen check using right click Explorer context menu. It covers in a smart way file opening in the User Space ( = everything outside 'C:\Windows', 'C:\Program File's, 'C:\Program Files (x86)'), that is welcome because dropping files to the User Space is not guarded by UAC.
 
 Why the SmartScreen?
 
@@ -8,7 +8,7 @@ The SmartScreen technology is one of the best for fighting 0-day malware files.
 
 Why 'Run By SmartScreen'?
 
-This technology is only half-way adopted in Windows. SmartScreen App Reputation on run can check executables with "Mark of the Web", that is attached to files after downloading from the Internet by popular Web Browsers, Windows Store or Windows OneDrive. There are many cases when files do not have "Mark of the Web", and then SmartScreen Filter simply ignore them on the run (see REMARKS).
+This technology is only half-way adopted in Windows. 'SmartScreen App Reputation on Run' can check executables with 'Mark of the Web', that is attached to files after downloading from the Internet by popular Web Browsers, Windows Store or Windows OneDrive. There are many cases when files do not have 'Mark of the Web', and then SmartScreen Filter simply ignore them on the run (see REMARKS).
 
 
 INSTALLATION
@@ -30,7 +30,7 @@ Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 
 1. Files located in the System Space (= inside C:\Windows, C:\Program Files, C:\Program Files (x86)) are opened normally, without SmartScreen check.
 2. The executables located in the User Space (= outside C:\Windows, C:\Program Files, C:\Program Files (x86)) are checked by SmartScreen before the run.
-3. Files located in the User Space with somewhat dangerous extensions (not supported by SmartScreen), are not allowed to open (similar to Software Restriction Policies), and the program shows an alert. 
+3. Files located in the User Space with somewhat dangerous extensions (not supported by SmartScreen), are not allowed to open (similarly to Software Restriction Policies), and the program shows an alert. 
 4. Shortcuts with command line in 'Target' area are always blocked, and the program shows an alert.
 5. Other files (media, photos, documents, etc.) are opened normally, without SmartScreen check.
 
@@ -75,7 +75,7 @@ B) You have run the executable file with runas.exe (Microsoft), AdvancedRun (Nir
 
 Registry changes:
 
-HKCR\*\shell\Run By SmartScreen\
+HKCR\\*\shell\Run By SmartScreen\
 
 HKCR\WSHFile!IsShortcut
 
