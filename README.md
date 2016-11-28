@@ -1,4 +1,4 @@
-Run-By-Smartscreen
+#Run-By-Smartscreen
 
 'Run By Smartscreen' is a very simple idea to open new files with SmartScreen check using right click Explorer context menu. It covers in a smart way file opening in the User Space ( = everything outside 'C:\Windows', 'C:\Program Files', 'C:\Program Files (x86)'), that is welcome because dropping files to the User Space is not guarded by UAC.
 
@@ -28,8 +28,8 @@ Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 
 This program is prepared to help inexperienced users to open all new files. If the user tries to open the file with "Run By SmartScreen" it works as enumerated below:
 
-1. Files located in the System Space (= inside C:\Windows, C:\Program Files, C:\Program Files (x86)) are opened normally, without SmartScreen check.
-2. The executables located in the User Space (= outside C:\Windows, C:\Program Files, C:\Program Files (x86)) are checked by SmartScreen before the run.
+1. Files located in the System Space (= inside 'C:\Windows', 'C:\Program Files', 'C:\Program Files (x86)') are opened normally, without SmartScreen check.
+2. The executables located in the User Space (= outside 'C:\Windows', 'C:\Program Files', 'C:\Program Files (x86)') are checked by SmartScreen before the run.
 3. Files located in the User Space with somewhat dangerous extensions (not supported by SmartScreen), are not allowed to open (similarly to Software Restriction Policies), and the program shows an alert. 
 4. Shortcuts with command line in 'Target' area are always blocked, and the program shows an alert.
 5. Other files (media, photos, documents, etc.) are opened normally, without SmartScreen check.
@@ -71,7 +71,7 @@ A) You have got the executable file (BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX
 
 B) You have run the executable file with runas.exe (Microsoft), AdvancedRun (Nirsoft), RunAsSystem.exe (AprelTech.com), etc.
 
-'Run By SmartScreen' covers all vectors of infection listed in the A) point. Alternatively to "Run By SmartScreen", you may simply upload the file to One Drive (or mailbox) , and download it again. This procedure also activates SmartScreen check automatically.
+'Run By SmartScreen' covers all vectors of infection listed in the A) point. Alternatively to 'Run By SmartScreen', you may simply upload the file to One Drive (or mailbox) , and download it again. This procedure also activates SmartScreen check automatically.
 
 Registry changes:
 
