@@ -59,7 +59,7 @@ A) You have got the executable file (BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX
 
 * the downloader or torrent application (EagleGet, utorrent etc.);
 
-* container format file (zip, 7z, arj, rar, etc.);
+* container format file (zip, 7z, arj, rar, etc.), with the exception of built-in Windows decompressing option for ZIP files.
 
 * CD/DVD/Blue-ray disc;
 
