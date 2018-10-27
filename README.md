@@ -107,25 +107,34 @@ A) You have got the executable file (BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX
 
 B) You have run the executable file with runas.exe (Microsoft), AdvancedRun (Nirsoft), RunAsSystem.exe (AprelTech.com), etc.
 
-'Run By SmartScreen' covers all vectors of infection listed in the A) point. Alternatively to 'Run By SmartScreen', you may simply
-upload the file to One Drive (or mailbox) , and download it again. This procedure also activates SmartScreen check automatically.
+'Run By SmartScreen' covers all vectors of infection listed in the point A).
 
-Registry changes:
+REGISTRY CHANGES:
 
 HKCR\\*\shell\Run By SmartScreen\
+
 HKCR\Application.Reference!IsShortcut
+
 HKCR\Application.Reference!NoIsShortcut
+
 HKCR\IE.AssocFile.URL!IsShortcut
+
 HKCR\IE.AssocFile.URL!NoIsShortcut
+
 HKCR\InternetShortcut!IsShortcut
+
 HKCR\InternetShortcut!NoIsShortcut
+
 HKCR\Microsoft.Website!IsShortcut
+
 HKCR\Microsoft.Website!NoIsShortcut
+
 HKCR\WSHFile!IsShortcut
+
 HKCR\WSHFile!NoIsShortcut
 
 
 PROGRAM INFO
 
 'Run By Smartscreen' was coded and compiled with AutoIt v3.3.14.2 (see RunBySmartscreen.au3 source file). 
-This is the the stable version 2.0.1, updated: 28 November 2016.
+This is the the stable version 3.0.0.0, updated in October 2018.
