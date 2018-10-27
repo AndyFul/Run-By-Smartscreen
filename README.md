@@ -128,6 +128,10 @@ HKCR\IE.AssocFile.URL!IsShortcut
 
 HKCR\IE.AssocFile.URL!NoIsShortcut
 
+HKCR\IE.AssocFile.WEBSITE!IsShortcut
+
+HKCR\IE.AssocFile.WEBSITE!NoIsShortcut
+
 HKCR\InternetShortcut!IsShortcut
 
 HKCR\InternetShortcut!NoIsShortcut
@@ -135,6 +139,10 @@ HKCR\InternetShortcut!NoIsShortcut
 HKCR\Microsoft.Website!IsShortcut
 
 HKCR\Microsoft.Website!NoIsShortcut
+
+HKCR\piffile!IsShortcut
+
+HKCR\piffile!NoIsShortcut
 
 HKCR\WSHFile!IsShortcut
 
