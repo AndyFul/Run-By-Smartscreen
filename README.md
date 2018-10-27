@@ -113,9 +113,15 @@ upload the file to One Drive (or mailbox) , and download it again. This procedur
 Registry changes:
 
 HKCR\\*\shell\Run By SmartScreen\
-
+HKCR\Application.Reference!IsShortcut
+HKCR\Application.Reference!NoIsShortcut
+HKCR\IE.AssocFile.URL!IsShortcut
+HKCR\IE.AssocFile.URL!NoIsShortcut
+HKCR\InternetShortcut!IsShortcut
+HKCR\InternetShortcut!NoIsShortcut
+HKCR\Microsoft.Website!IsShortcut
+HKCR\Microsoft.Website!NoIsShortcut
 HKCR\WSHFile!IsShortcut
-
 HKCR\WSHFile!NoIsShortcut
 
 
