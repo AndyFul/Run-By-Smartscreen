@@ -14,15 +14,15 @@ This technology is only half-way adopted in Windows. SmartScreen Application Rep
 
 INSTALLATION
 
-'Run By Smartscreen' works only with Windows 8 and higher versions. Download the right installer: RunBySmartScreen(x64).exe (for 64Bit system), RunBySmartScreen(x86).exe (for 32Bit system).
+'Run By Smartscreen' works only with Windows 8 and higher versions. Download the right installer: RunBySmartScreen(x64).exe (for 64-bit system), RunBySmartScreen(x86).exe (for 32-bit system).
 
-For 64 Bit OS
+For 64-bit OS
 
 Run executable  RunBySmartScreen(x64).exe with Administrative Rights ('Run As Administrator' option in Explorer context menu). After that, the 'Run by SmartScreen' option should appear in Explorer context menu. If not, the 'log out'/'log on' procedure should help. 
 
-For 32Bit OS
+For 32-bit OS
 
-Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
+Do as in the case of 64-bit, but choose RunBySmartScreen(x86).exe
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 The main idea of 'Run By SmartScreen' did not change. This program is intended to help the users to safely open all new files. There are
