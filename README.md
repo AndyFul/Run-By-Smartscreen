@@ -1,6 +1,7 @@
 #Run-By-Smartscreen
 
-'Run By Smartscreen' is a very simple idea to open new files with SmartScreen check using right click Explorer context menu. It covers in a smart way file opening in the User Space ( = everything outside 'C:\Windows', 'C:\Program Files', 'C:\Program Files (x86)'), that is welcome because dropping files to the User Space is not guarded by UAC.
+'Run By Smartscreen' is a very simple idea to safely open/run the new files via the option on the Explorer right click context menu. 'Run By Smartscreen' can mark files with MOTW, so they are treated as downloaded from the Internet. This forces SmartScreen check before running the exexutables. Furthermore, the popular documents will be opened in 'Protected View', if the document application has such ability (like MS Office 2010+ and Adobe Acrobat Reader 10+). The files with unsafe extensions will be blocked.
+
 
 Why the SmartScreen?
 
@@ -8,7 +9,7 @@ The SmartScreen technology is one of the best for fighting 0-day malware files.
 
 Why 'Run By SmartScreen'?
 
-This technology is only half-way adopted in Windows. 'SmartScreen App Reputation on Run' can check executables with 'Mark of the Web', that is attached to files after downloading from the Internet by popular Web Browsers, Windows Store or Windows OneDrive. Yet, there are many cases when files do not have 'Mark of the Web', and then SmartScreen Filter simply ignore them on the run (see REMARKS).
+This technology is only half-way adopted in Windows. SmartScreen Application Reputation can check executables if they have 'Mark of the Web', that is attached to files after downloading from the Internet by popular Web Browsers, Windows Store or Windows OneDrive. Yet, there are many cases when files do not have 'Mark of the Web', and then SmartScreen Filter will simply ignore them on the run (see REMARKS).
 
 
 INSTALLATION
