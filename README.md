@@ -70,7 +70,7 @@ XBAP, XLA, XLAM, XLB, XLC, XLD, XLL, XLM, XLSB, XLSM, XLT, XLTM, XLTX, XLW, XML,
 The above list is based on SRP, Outlook Web Access, Gmail, and Adobe Acrobat Reader file extension blacklists.
 
 The files with extensions: BAT, CMD, CPL, DLL, JSE, OCX, and VBE are supported by SmartScreen Application Reputation. But, their
-SmartScreen detection is not good, so they are added to the list of dangerous file extensions. Even if they are accepted by SmartScreen,
+SmartScreen detection is not good, so they are added to the list of unsafe file extensions. Even if they are accepted by SmartScreen,
 then will be blocked with notification.
 
 
