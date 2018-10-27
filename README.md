@@ -52,7 +52,7 @@ opening the popular documents (DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF)
 8. Other files (ZIP archives, media, photos, etc.) are opened normally without warnings.
 
 
-The program has hardcoded list of unsafe (potentially dangerous) file extensions:
+The program has the hardcoded list of unsafe (potentially dangerous) file extensions:
 
 ACCDA, ACCDE, ACCDR, ACCDT, ACM, AD, ADE, ADN, ADP, AIR, APP, APPLICATION, APPREF-MS, ARC, ASA, ASP, ASPX, ASX, AX, BAS, BAT, BZ, BZ2,
 CAB, CDB, CER, CFG, CHI, CHM, CLA, CLASS, CLB, CMD, CNT, CNV, COM, COMMAND, CPL, CPX, CRAZY, CRT, CRX, CSH, CSV, DB, DCR, DER, DESKLINK,
