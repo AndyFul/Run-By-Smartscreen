@@ -1,4 +1,11 @@
-Version 2.0.1
+Version 3.0.0.0
+1. Only EXE, MSI, COM, and SCR files are checked by SmartScreen. The files (scripts and binary libraries) with extensions: BAT, CMD, CPL, DLL, JSE, OCX, and VBE are not checked by SmartScreen, but instead, they were added to the list of unsafe extensions.
+2. During the installation, 'Run By SmartScreen' changes Adobe Acrobat Reader 10+/DC 'Protected View' setting, similarly to the default 'Protected View' setting in MS Office 2010+.
+3. 'Protected View' is applied when MS Office and Adobe Acrobat Reader 10+/DC are used for opening the popular documents (DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF) and those documents are opened via Run By SmartScreen. Other MS Office document extensions are added to the list of unsafe extensions.
+4. The list of unsafe extensions was extended (over 250 extensions): ACCDA, ACCDE, ACCDR, ACCDT, ACM, AD, ADE, ADN, ADP, AIR, APP, APPLICATION, APPREF-MS, ARC, ASA, ASP, ASPX, ASX, AX, BAS, BAT, BZ, BZ2, CAB, CDB, CER, CFG, CHI, CHM, CLA, CLASS, CLB, CMD, CNT, CNV, COM, COMMAND, CPL, CPX, CRAZY, CRT, CRX, CSH, CSV, DB, DCR, DER, DESKLINK, DESKTOP, DIAGCAB, DIF, DIR, DLL, DMG, DOCB, DOCM, DOT, DOTM, DOTX, DQY, DRV, EXE, FON, FXP, GADGET, GLK, GRP, GZ, HEX, HLP, HPJ, HQX, HTA, HTC, HTM, HTT, IE, IME, INF, INI, INS, IQY, ISP, ITS, JAR, JNLP, JOB, JS, JSE, KSH, LACCDB, LDB, LIBRARY-MS, LOCAL, LZH, MAD, MAF, MAG, MAM, MANIFEST, MAPIMAIL, MAQ, MAR, MAS, MAT, MAU, MAV, MAW, MAY, MCF, MDA, MDB, MDE, MDF, MDN, MDT, MDW, MDZ, MHT, MHTML, MMC, MOF, MSC, MSH, MSH1, MSH1XML, MSH2, MSH2XML, MSHXML, MSI, MSP, MST, MSU, MUI, MYDOCS, NLS, NSH, OCX, ODS, OPS, OQY, OSD, PCD, PERL, PI, PIF, PKG, PL, PLG, POT, POTM, POTX, PPAM, PPS, PPSM, PPSX, PPTM, PRF, PRG, PRINTEREXPORT, PRN, PS1, PS1XML, PS2, PS2XML, PSC1, PSC2, PSD1, PSDM1, PST, PSTREG, PXD, PY, PY3, PYC, PYD, PYDE, PYI, PYO, PYP, PYT, PYW, PYWZ, PYX, PYZ, PYZW, RB, REG, RPY, RQY, RTF, SCT, SEA, SEARCH-MS, SEARCHCONNECTOR-MS, SETTINGCONTENT-MS, SHB, SHS, SIT, SLDM, SLDX, SLK, SPL, STM, SWF, SYS, TAR, TAZ, TERM, TERMINAL, TGZ, THEME, TLB, TMP, TOOL, TSP, URL, VB, VBE, VBP, VBS, VSMACROS, VSS, VST, VSW, VXD, WAS, WBK, WEBLOC, WEBPNP, WEBSITE, WS, WSC, WSF, WSH, XBAP, XLA, XLAM, XLB, XLC, XLD, XLL, XLM, XLSB, XLSM, XLT, XLTM, XLTX, XLW, XML, XNK, XPI, XPS, Z, ZFSENDTOTARGET, ZLO, ZOO
+
+
+Version 2.0.1.0
 1. The bug with SCR extension check was corrected.
 2. The PIF extension was removed (not supported in Windows 8+).
 3. The URL extension was removed (not supported by Explorer context menu).
@@ -7,8 +14,8 @@ Version 2.0.1
 6. Shortcuts with command line in 'Target' area are always blocked, and the program shows an alert.
 7. The installation process was simplified.
 
-Version 1.0.3
-From version 1.0.3 the program is prepared to help inexperienced users to open all new files. If the user tries to open the file with "Run By SmartScreen" the program works as enumerated below:
+Version 1.0.3.0
+From version 1.0.3.0 the program is prepared to help inexperienced users to open all new files. If the user tries to open the file with "Run By SmartScreen" the program works as enumerated below:
 1. Files located in the System Space (= inside C:\Windows, C:\Program Files, C:\Program Files (x86)) are opened normally, without SmartScreen check.
 2. Files located in the User Space with somewhat dangerous extensions (not supported by SmartScreen), are not allowed to open, and the program shows an alert (similar to Software Restriction Policies). 
 3. The executables located in the User Space are checked by SmartScreen before the run.
