@@ -13,37 +13,73 @@ This technology is only half-way adopted in Windows. 'SmartScreen App Reputation
 
 INSTALLATION
 
-'Run By Smartscreen' works only with Windows 8 and higher versions. Unzip the RunBySmartscreen.zip - there should be 5 files in unpacked RunBySmartscreen folder: RunBySmartscreen.au3 (source script), RunBySmartScreen(x64).exe (for 64Bit system), RunBySmartScreen(x86).exe (for 32Bit system), RunBySmartscreenHelp.txt (help file), and What_Is_New.txt.
+'Run By Smartscreen' works only with Windows 8 and higher versions. Download the right installer: RunBySmartScreen(x64).exe (for 64Bit system), RunBySmartScreen(x86).exe (for 32Bit system).
 
 For 64 Bit OS
 
-Run executable  RunBySmartScreen(x64).exe with Administrative Rights ('Run As Administrator' option in Explorer context menu). After that, the 'Run by SmartScreen' option should appear in Explorer context menu. If not, the 'log out'/'log on' procedure should help. After installation, the unzipped RunBySmartscreen folder can be deleted. 
+Run executable  RunBySmartScreen(x64).exe with Administrative Rights ('Run As Administrator' option in Explorer context menu). After that, the 'Run by SmartScreen' option should appear in Explorer context menu. If not, the 'log out'/'log on' procedure should help. 
 
 For 32Bit OS
 
 Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 
+---------------------------------------------------------------------------------------------------------------------------------------
+The main idea of 'Run By SmartScreen' did not change. This program is intended to help the users to safely open all new files. There are
+some changes as compared to previous versions. The new version works as follows:
 
-"Run By SmartScreen" option in Explorer context menu forces file execution with SmartScreen check for: BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX, SCR and VBE files, located in the User Space. For DLL and OCX files 'Run By Smartscreen' adds only 'Mark of the Web'. Those files cannot be run directly from Explorer, but now running them by any program will trigger the SmartScreen check. 
+1. Executables (COM, EXE, MSI, and SCR files) located in the System Space (= inside 'C:\Windows', 'C:\Program Files', 'C:\Program Files
+(x86)') are opened normally, without SmartScreen check.
 
-This program is prepared to help inexperienced users to open all new files. If the user tries to open the file with "Run By SmartScreen" it works as enumerated below:
+2. The above executables located in the User Space (= outside 'C:\Windows', 'C:\Program Files', 'C:\Program Files (x86)') are checked by
+SmartScreen before running.
 
-1. Files located in the System Space (= inside 'C:\Windows', 'C:\Program Files', 'C:\Program Files (x86)') are opened normally, without SmartScreen check.
-2. The executables located in the User Space (= outside 'C:\Windows', 'C:\Program Files', 'C:\Program Files (x86)') are checked by SmartScreen before the run.
-3. Files located in the User Space with somewhat dangerous extensions (not supported by SmartScreen), are not allowed to open (similarly to Software Restriction Policies), and the program shows an alert. 
-4. Shortcuts with command line in 'Target' area are always blocked, and the program shows an alert.
-5. Other files (media, photos, documents, etc.) are opened normally, without SmartScreen check.
+3. Files located in the User Space with potentially dangerous extensions (scripts, most MS Office files, etc.), are not allowed to open
+(similarly to Software Restriction Policies), and the program shows an alert.
 
-The program has hard-coded list of dangerous extensions (not supported by 'SmartScreen App Reputation on Run'):
+4. Shortcuts with a command line in the 'Target' area, are always blocked and the program shows an alert.
 
-WSH, WSF, WSC, WS, VBS, VB, SHS, SCT, REG, PS1, PCD, MST, MSP, MSC, MDE, MDB, JS, JAR, ISP, INS, INF, HTA, HLP, CRT, CHM, BAS, ADP, ADE
+5. Compressed archives not supported by Windows build-in unpacker  (.7z, .arj, .rar, .zipx) are not opened - only the short instruction
+is displayed.
+
+6. Popular formats related to MS Office and Adobe Acrobat Reader (DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF) are opened with the
+warning instruction, and the MOTW is added to the file.
+
+7. During the installation, 'Run By SmartScreen' changes the Adobe Reader 10+/DC 'Protected View' setting, similarly to the default 'Protected View' setting in MS Office 2010+. So, 'Protected View' is applied when MS Office and Adobe Acrobat Reader 10+/DC are used for
+opening the popular documents (DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF). Other MS Office documents are considered as dangerous
+(see point 3).
+
+8. Other files (ZIP archives, media, photos, etc.) are opened normally without warnings.
+
+
+The program has hardcoded list of dangerous file extensions:
+
+ACCDA, ACCDE, ACCDR, ACCDT, ACM, AD, ADE, ADN, ADP, AIR, APP, APPLICATION, APPREF-MS, ARC, ASA, ASP, ASPX, ASX, AX, BAS, BAT, BZ, BZ2,
+CAB, CDB, CER, CFG, CHI, CHM, CLA, CLASS, CLB, CMD, CNT, CNV, COM, COMMAND, CPL, CPX, CRAZY, CRT, CRX, CSH, CSV, DB, DCR, DER, DESKLINK,
+DESKTOP, DIAGCAB, DIF, DIR, DLL, DMG, DOCB, DOCM, DOT, DOTM, DOTX, DQY, DRV, EXE, FON, FXP, GADGET, GLK, GRP, GZ, HEX, HLP, HPJ, HQX,
+HTA, HTC, HTM, HTT, IE, IME, INF, INI, INS, IQY, ISP, ITS, JAR, JNLP, JOB, JS, JSE, KSH, LACCDB, LDB, LIBRARY-MS, LOCAL, LZH, MAD, MAF,
+MAG, MAM, MANIFEST, MAPIMAIL, MAQ, MAR, MAS, MAT, MAU, MAV, MAW, MAY, MCF, MDA, MDB, MDE, MDF, MDN, MDT, MDW, MDZ, MHT, MHTML, MMC, MOF,
+MSC, MSH, MSH1, MSH1XML, MSH2, MSH2XML, MSHXML, MSI, MSP, MST, MSU, MUI, MYDOCS, NLS, NSH, OCX, ODS, OPS, OQY, OSD, PCD, PERL, PI, PIF,
+PKG, PL, PLG, POT, POTM, POTX, PPAM, PPS, PPSM, PPSX, PPTM, PRF, PRG, PRINTEREXPORT, PRN, PS1, PS1XML, PS2, PS2XML, PSC1, PSC2, PSD1,
+PSDM1, PST, PSTREG, PXD, PY, PY3, PYC, PYD, PYDE, PYI, PYO, PYP, PYT, PYW, PYWZ, PYX, PYZ, PYZW, RB, REG, RPY, RQY, RTF, SCT, SEA,
+SEARCH-MS, SEARCHCONNECTOR-MS, SETTINGCONTENT-MS, SHB, SHS, SIT, SLDM, SLDX, SLK, SPL, STM, SWF, SYS, TAR, TAZ, TERM, TERMINAL, TGZ,
+THEME, TLB, TMP, TOOL, TSP, URL, VB, VBE, VBP, VBS, VSMACROS, VSS, VST, VSW, VXD, WAS, WBK, WEBLOC, WEBPNP, WEBSITE, WS, WSC, WSF, WSH,
+XBAP, XLA, XLAM, XLB, XLC, XLD, XLL, XLM, XLSB, XLSM, XLT, XLTM, XLTX, XLW, XML, XNK, XPI, XPS, Z, ZFSENDTOTARGET, ZLO, ZOO.
+
+
+The above list is based on SRP, Outlook Web Access, Gmail, and Adobe Acrobat Reader file extension blacklists.
+
+The files with extensions: BAT, CMD, CPL, DLL, JSE, OCX, and VBE are supported by SmartScreen Application Reputation. But, their
+SmartScreen detection is not good, so they are added to the list of dangerous file extensions. Even if they are accepted by SmartScreen,
+then will be blocked with notification.
+
 
 
 UNINSTALLATION
 
 For 64 Bit OS
 
-Navigate to RunBySmartScreen(x64).exe in C:\Windows folder, and run this file with Administrative Rights. The message: "Do you want to have 'Run By SmartScreen' option in Explorer context menu?" will be shown. Choose 'NO' button. After that, the executable can be deleted.
+Navigate to RunBySmartScreen(x64).exe in C:\Windows folder, and run this file with Administrative Rights. The message: "Do you want to
+have 'Run By SmartScreen' option in Explorer context menu?" will be shown. Choose 'NO' button. After that, the executable can be deleted.
 
 For 32Bit OS
 
@@ -71,7 +107,8 @@ A) You have got the executable file (BAT, CMD, COM, CPL, DLL, EXE, JSE, MSI, OCX
 
 B) You have run the executable file with runas.exe (Microsoft), AdvancedRun (Nirsoft), RunAsSystem.exe (AprelTech.com), etc.
 
-'Run By SmartScreen' covers all vectors of infection listed in the A) point. Alternatively to 'Run By SmartScreen', you may simply upload the file to One Drive (or mailbox) , and download it again. This procedure also activates SmartScreen check automatically.
+'Run By SmartScreen' covers all vectors of infection listed in the A) point. Alternatively to 'Run By SmartScreen', you may simply
+upload the file to One Drive (or mailbox) , and download it again. This procedure also activates SmartScreen check automatically.
 
 Registry changes:
 
