@@ -46,13 +46,13 @@ is displayed.
 warning instruction, and the MOTW is added to the file.
 
 7. During the installation, 'Run By SmartScreen' changes the Adobe Reader 10+/DC 'Protected View' setting, similarly to the default 'Protected View' setting in MS Office 2010+. So, 'Protected View' is applied when MS Office and Adobe Acrobat Reader 10+/DC are used for
-opening the popular documents (DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF). Other MS Office documents are considered as dangerous
+opening the popular documents (DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF). Other MS Office documents are considered as unsafe
 (see point 3).
 
 8. Other files (ZIP archives, media, photos, etc.) are opened normally without warnings.
 
 
-The program has hardcoded list of dangerous file extensions:
+The program has hardcoded list of unsafe (potentially dangerous) file extensions:
 
 ACCDA, ACCDE, ACCDR, ACCDT, ACM, AD, ADE, ADN, ADP, AIR, APP, APPLICATION, APPREF-MS, ARC, ASA, ASP, ASPX, ASX, AX, BAS, BAT, BZ, BZ2,
 CAB, CDB, CER, CFG, CHI, CHM, CLA, CLASS, CLB, CMD, CNT, CNV, COM, COMMAND, CPL, CPX, CRAZY, CRT, CRX, CSH, CSV, DB, DCR, DER, DESKLINK,
