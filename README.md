@@ -1,5 +1,9 @@
 #Run-By-Smartscreen
 
+Please note: on some fresh installed Windows 10 versions, RunBySmartScreen may refuse to install with an alert that SmartScreen is disabled. This issue can be simply resolved by opening Windows Defender Security Center, next opening "App & browser control". 
+In the section 'Check apps and files', the SmartScreen should be turned off (UAC prompt accepted) and turned on again.
+This will add the right registry entry which will allow installation of standalone RunBySmartScreen.
+
 'Run By Smartscreen' is a very simple idea to safely open/run the new files via the option on the Explorer right click context menu. 'Run By Smartscreen' can mark files with MOTW, so they are treated as downloaded from the Internet. This forces SmartScreen check before running the exexutable with MOTW. Furthermore, the popular documents marked with MOTW will be opened in 'Protected View', if the document application has such ability (like MS Office 2010+ and Adobe Acrobat Reader 10+). 'Run By Smartscreen' can also block the files with unsafe extensions (over 250 extensions).
 
 .
