@@ -152,4 +152,4 @@ HKCR\WSHFile!NoIsShortcut
 PROGRAM INFO
 
 'Run By Smartscreen' was coded and compiled with AutoIt v3.3.14.2 (see RunBySmartscreen.au3 source file). 
-This is the the stable version 3.0.0.0, updated in October 2018.
+This is the the stable version 3.1.0.0, updated in June 2019.
