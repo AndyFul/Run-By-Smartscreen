@@ -1,3 +1,11 @@
+Version 3.1.0.0
+1. Corrected the procedure of checking if SmartScreen is enabled.
+
+Version 3.0.1.0
+1. Corrected Help information.
+2. Corrected some issues related to shortcuts.
+3. Added icons for RunBySmartScreen executables.
+
 Version 3.0.0.0
 1. Only EXE, MSI, COM, and SCR files are checked by SmartScreen. The files (scripts and binary libraries) with extensions: BAT, CMD,
 CPL, DLL, JSE, OCX, and VBE are not checked by SmartScreen, but instead, they were added to the list of unsafe extensions.
