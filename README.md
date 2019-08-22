@@ -1,4 +1,4 @@
-#Run-By-Smartscreen
+#Run-By-Smartscreen (now digitally signed)
 
 'Run By Smartscreen' is a very simple idea to safely open/run the new files via the option on the Explorer right click context menu. 'Run By Smartscreen' can mark files with MOTW, so they are treated as downloaded from the Internet. This forces SmartScreen check before running the exexutable with MOTW. Furthermore, the popular documents marked with MOTW will be opened in 'Protected View', if the document application has such ability (like MS Office 2010+ and Adobe Acrobat Reader 10+). 'Run By Smartscreen' can also block the files with unsafe extensions (over 250 extensions).
 
