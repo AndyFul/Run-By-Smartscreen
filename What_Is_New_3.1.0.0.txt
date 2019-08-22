@@ -1,5 +1,6 @@
 Version 3.1.0.0
 1. Corrected the procedure of checking if SmartScreen is enabled.
+2. The executables were first unsigned, but replaced (in August 2019) by digitally signed binaries (Certum Code Signing certificate).
 
 Version 3.0.1.0
 1. Corrected Help information.
