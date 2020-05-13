@@ -16,15 +16,17 @@ This technology is only half-way adopted in Windows. SmartScreen Application Rep
 
 INSTALLATION
 
-'Run By Smartscreen' works only with Windows 8 and higher versions. Download the right installer: RunBySmartScreen(x64).exe (for 64-bit system), RunBySmartScreen(x86).exe (for 32-bit system).
+Run the executable  RunBySmartScreen.exe . The message: *Do you want to add the 'Run By SmartScreen' option in Explorer context menu?* will be shown. Choose the 'YES' button. After that, the 'Run By SmartScreen' option should appear in the right click Explorer context menu.
+The installation does change the default 'Protected View' setting in Adobe Reader 10+/DC, so the files from potentially unsafe locations are opened in 'Protected View'.
 
-For 64-bit OS
+.
 
-Run executable  RunBySmartScreen(x64).exe with Administrative Rights ('Run As Administrator' option in Explorer context menu). After that, the 'Run by SmartScreen' option should appear in Explorer context menu. If not, the 'log out'/'log on' procedure should help. 
+UNINSTALLATION
 
-For 32-bit OS
+Run the executable  RunBySmartScreen.exe . The message: *Do you want to add the 'Run By SmartScreen' option in Explorer context menu?* will be shown. Choose the 'NO' button.
+The uninstallation recovers the default 'Protected View' = OFF setting in Adobe Reader 10+/DC.
 
-Do as in the case of 64-bit, but choose RunBySmartScreen(x86).exe
+.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 Run By SmartScreen works as follows:
@@ -75,19 +77,6 @@ The above list is based on SRP, Outlook Web Access, Gmail, and Adobe Acrobat Rea
 The files with extensions: BAT, CMD, CPL, DLL, JSE, OCX, and VBE are supported by SmartScreen Application Reputation. But, their
 SmartScreen detection is not good, so they are added to the list of unsafe file extensions. Even if they are accepted by SmartScreen,
 then will be blocked with notification.
-
-.
-
-UNINSTALLATION
-
-For 64 Bit OS
-
-Navigate to RunBySmartScreen(x64).exe in C:\Windows folder, and run this file with Administrative Rights. The message: "Do you want to
-have 'Run By SmartScreen' option in Explorer context menu?" will be shown. Choose 'NO' button. After that, the executable can be deleted.
-
-For 32Bit OS
-
-Do as in the case of 64Bit, but choose RunBySmartScreen(x86).exe
 
 .
 
