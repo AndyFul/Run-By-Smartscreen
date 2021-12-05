@@ -47,15 +47,15 @@ going to open them, then SmartScreen check will be triggered.
 7. The installation process was simplified.
 
 Version 1.0.3.0
-From version 1.0.3.0 the program is prepared to help inexperienced users to open all new files. If the user tries to open the file with
-"Run By SmartScreen" the program works as enumerated below:
+From version 1.0.3.0 the program is prepared to help inexperienced users to open all new files. If the user tries to open the file
+with "Run By SmartScreen" the program works as enumerated below:
 1. Files located in the System Space (= inside C:\Windows, C:\Program Files, C:\Program Files (x86)) are opened normally, without
 SmartScreen check.
-2. Files located in the User Space with somewhat dangerous extensions (not supported by SmartScreen), are not allowed to open, and the 
-program shows an alert (similar to Software Restriction Policies). 
+2. Files located in the User Space with somewhat dangerous extensions (not supported by SmartScreen), are not allowed to open, and
+the program shows an alert (similar to Software Restriction Policies). 
 3. The executables located in the User Space are checked by SmartScreen before the run.
 4. Other files (media, photos, documents, etc.) are opened normally, without SmartScreen check.
 
 The program has hard-coded list of dangerous extensions (not supported by SmartScreen App Reputation on run):
-WSH, WSF, WSC, WS, VBS, VB, URL, SHS, SCT, REG, PS1, PIF, PCD, MST, MSP, MSC, MDE, MDB, JS, JAR, ISP, INS, INF, HTA, HLP, CRT, CHM, BAS,
-ADP, ADE.
+WSH, WSF, WSC, WS, VBS, VB, URL, SHS, SCT, REG, PS1, PIF, PCD, MST, MSP, MSC, MDE, MDB, JS, JAR, ISP, INS, INF, HTA, HLP, CRT, CHM,
+BAS,ADP, ADE.
