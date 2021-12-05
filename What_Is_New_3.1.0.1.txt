@@ -1,5 +1,5 @@
 Version 4.0.0.0
-Added ELF file extensions to the default protected extensions.
+Added ELF file extension.
 
 Version 3.1.0.1
 1. Added prevention for SmartScreen DLL hijacking.
