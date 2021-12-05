@@ -1,3 +1,6 @@
+Version 4.0.0.0
+Added ELF file extensions to the default protected extensions.
+
 Version 3.1.0.1
 1. Added prevention for SmartScreen DLL hijacking.
 2. Both 64-bit and 32-bit executables are wrapped in one NSISS executable.
