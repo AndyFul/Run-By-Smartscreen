@@ -17,8 +17,8 @@ Version 3.0.1.0
 Version 3.0.0.0
 1. Only EXE, MSI, COM, and SCR files are checked by SmartScreen. The files (scripts and binary libraries) with extensions: BAT, CMD,
 CPL, DLL, JSE, OCX, and VBE are not checked by SmartScreen, but instead, they were added to the list of unsafe extensions.
-2. During the installation, 'Run By SmartScreen' changes Adobe Acrobat Reader 10+/DC 'Protected View' setting, similarly to the default
-'Protected View' setting in MS Office 2010+.
+2. During the installation, 'Run By SmartScreen' changes Adobe Acrobat Reader 10+/DC 'Protected View' setting, similarly to the 
+default 'Protected View' setting in MS Office 2010+.
 3. 'Protected View' is applied when MS Office and Adobe Acrobat Reader 10+/DC are used for opening the popular documents (DOC, DOCX,
 XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF) and those documents are opened via Run By SmartScreen. Other MS Office document extensions are
 added to the list of unsafe extensions.
