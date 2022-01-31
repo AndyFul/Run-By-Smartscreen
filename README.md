@@ -85,13 +85,13 @@ A) You have got the executable file (like COM, EXE, MSI, SCR) using:
 
 * the downloader or torrent application (EagleGet, utorrent etc.);
 
-* container format file (zip, 7z, arj, rar, etc.), with the exception of built-in Windows decompressing option for ZIP files.
+* container format file (zip, 7z, arj, rar, etc.), with the exception of Windows built-in decompressing option for ZIP files.
 
 * CD/DVD/Blue-ray disc;
 
 * CD/DVD/Blue-ray disc image (iso, bin, etc.);
 
-* non NTFS USB storage device (FAT32 pendrive, FAT32 usb disk);
+* non-NTFS USB storage device (FAT32 Pendrive, FAT32 USB disk)
 
 * Memory Card; so the file does not have the proper Alternate Data Stream attached ('Mark of the Web').
 
