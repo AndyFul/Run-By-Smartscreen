@@ -97,7 +97,7 @@ A) You have got the executable file (like COM, EXE, MSI, SCR) using:
 
 B) You have run the executable file with runas.exe (Microsoft), AdvancedRun (Nirsoft), RunAsSystem.exe (AprelTech.com), etc.
 
-'Run By SmartScreen' covers all vectors of infection listed in the point A).
+'Run By SmartScreen' covers all vectors of infection listed in point A).
 
 .
 
