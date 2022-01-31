@@ -21,12 +21,12 @@ This technology is only halfway adopted in Windows. SmartScreen for Explorer can
 
 ## INSTALLATION
 
-Run the executable  RunBySmartScreen_????.exe . The message: *Do you want to add the 'Run By SmartScreen' option in Explorer context menu?* will be shown. Choose the 'YES' button. After that, the 'Run By SmartScreen' option should appear in the right click Explorer context menu.
+Run the executable  RunBySmartScreen_????.exe . The message: *Do you want to add the 'Run By SmartScreen' option in the Explorer context menu?* will be shown. Choose the 'YES' button. After that, the 'Run By SmartScreen' option should appear in the right click Explorer context menu.
 
 
 ## UNINSTALLATION
 
-Run the executable  RunBySmartScreen_????.exe . The message: *Do you want to add the 'Run By SmartScreen' option in Explorer context menu?* will be shown. Choose the 'NO' button.
+Run the executable  RunBySmartScreen_????.exe . The message: *Do you want to add the 'Run By SmartScreen' option in the Explorer context menu?* will be shown. Choose the 'NO' button.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
