@@ -16,23 +16,18 @@ The SmartScreen technology is one of the best for fighting 0-day malware files.
 
 ## Why 'Run By SmartScreen'?
 
-This technology is only half-way adopted in Windows. SmartScreen Application Reputation can check executables if they have 'Mark of the Web', that is attached to files after downloading from the Internet by popular Web Browsers, Windows Store or Windows OneDrive. Yet, there are many cases when files do not have 'Mark of the Web', and then SmartScreen Filter will simply ignore them on the run (see REMARKS).
+This technology is only halfway adopted in Windows. SmartScreen for Explorer can check executables with "Mark of the Web", which is attached to files after downloading from the Internet by popular Web Browsers, Windows Store or Windows OneDrive. There are many cases when files do not have "Mark of the Web", and then SmartScreen Filter simply ignores them on the run (see REMARKS).
 
-.
 
 ## INSTALLATION
 
 Run the executable  RunBySmartScreen_????.exe . The message: *Do you want to add the 'Run By SmartScreen' option in Explorer context menu?* will be shown. Choose the 'YES' button. After that, the 'Run By SmartScreen' option should appear in the right click Explorer context menu.
-The installation does change the default 'Protected View' setting in Adobe Reader 10+/DC, so the files from potentially unsafe locations are opened in 'Protected View'.
 
-.
 
 ## UNINSTALLATION
 
-Run the executable  RunBySmartScreen.exe . The message: *Do you want to add the 'Run By SmartScreen' option in Explorer context menu?* will be shown. Choose the 'NO' button.
-The uninstallation recovers the default 'Protected View' = OFF setting in Adobe Reader 10+/DC.
+Run the executable  RunBySmartScreen_????.exe . The message: *Do you want to add the 'Run By SmartScreen' option in Explorer context menu?* will be shown. Choose the 'NO' button.
 
-.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## How it works
