@@ -1,3 +1,8 @@
+Version 4.0.0.1
+Added APPX, APPXBUNDLE, MSIX, and MSIXBUNDLE extensions (Universal Windows Platform installation packages).
+Such packages are used to install UWP apps from the web browser or via downloaded packages ouside the Microsoft Store.
+The safe method is installing UWP apps directly from Microsoft Store.
+
 Version 4.0.0.0
 Added ELF file extension.
 
