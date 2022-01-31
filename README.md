@@ -1,29 +1,33 @@
+## PROGRAM INFO
+
+'Run By Smartscreen' was coded and compiled with AutoIt v3.3.14.2 . 
+This is the the stable version 4.0.0.0, updated in November 2021.
+
+
 # Run-By-Smartscreen (now digitally signed)
 
 Run By Smartscreen' is a very simple idea to safely open/run the new files via the option on the Explorer right-click context menu. 'Run By Smartscreen' can mark files with MOTW, so they are treated as downloaded from the Internet. This forces the SmartScreen check before running the executable with MOTW. Furthermore, the popular documents marked with MOTW will be opened in 'Protected View', if the document application has such ability (like MS Office 2010+ and Adobe Acrobat Reader 10+). Many file types with unsafe extensions (over 250 extensions) will be blocked when 'Run By Smartscreen' to minimize the chances of infection.
 
 
 
-.
-
-Why the SmartScreen?
+## Why the SmartScreen?
 
 The SmartScreen technology is one of the best for fighting 0-day malware files.
 
-Why 'Run By SmartScreen'?
+## Why 'Run By SmartScreen'?
 
 This technology is only half-way adopted in Windows. SmartScreen Application Reputation can check executables if they have 'Mark of the Web', that is attached to files after downloading from the Internet by popular Web Browsers, Windows Store or Windows OneDrive. Yet, there are many cases when files do not have 'Mark of the Web', and then SmartScreen Filter will simply ignore them on the run (see REMARKS).
 
 .
 
-INSTALLATION
+## INSTALLATION
 
 Run the executable  RunBySmartScreen_????.exe . The message: *Do you want to add the 'Run By SmartScreen' option in Explorer context menu?* will be shown. Choose the 'YES' button. After that, the 'Run By SmartScreen' option should appear in the right click Explorer context menu.
 The installation does change the default 'Protected View' setting in Adobe Reader 10+/DC, so the files from potentially unsafe locations are opened in 'Protected View'.
 
 .
 
-UNINSTALLATION
+## UNINSTALLATION
 
 Run the executable  RunBySmartScreen.exe . The message: *Do you want to add the 'Run By SmartScreen' option in Explorer context menu?* will be shown. Choose the 'NO' button.
 The uninstallation recovers the default 'Protected View' = OFF setting in Adobe Reader 10+/DC.
@@ -31,7 +35,7 @@ The uninstallation recovers the default 'Protected View' = OFF setting in Adobe 
 .
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-Run By SmartScreen works as follows:
+## How it works
 
 1. Executables (COM, EXE, MSI, and SCR files) located in the System Space (= inside 'C:\Windows', 'C:\Program Files', 'C:\Program Files
 (x86)') are opened normally, without SmartScreen check.
@@ -78,7 +82,7 @@ The above list is based on SRP, Outlook Web Access, Gmail, and Adobe Acrobat Rea
 
 .
 
-REMARKS
+## REMARKS
 
 The SmartScreen Filter in Windows 8+ allows some vectors of infection listed below:
 
@@ -102,7 +106,7 @@ B) You have run the executable file with runas.exe (Microsoft), AdvancedRun (Nir
 
 .
 
-REGISTRY CHANGES:
+## REGISTRY CHANGES:
 
 HKCR\\*\shell\Run By SmartScreen\
 
@@ -133,10 +137,3 @@ HKCR\piffile!NoIsShortcut
 HKCR\WSHFile!IsShortcut
 
 HKCR\WSHFile!NoIsShortcut
-
-.
-
-PROGRAM INFO
-
-'Run By Smartscreen' was coded and compiled with AutoIt v3.3.14.2 . 
-This is the the stable version 4.0.0.0, updated in November 2021.
