@@ -1,3 +1,6 @@
+Version 4.0.1.0
+Added several new extensions (archives, disk images).
+
 Version 4.0.0.1
 Added APPX, APPXBUNDLE, MSIX, and MSIXBUNDLE extensions (Universal Windows Platform installation packages).
 Such packages are used to install UWP apps from the web browser or via downloaded packages ouside the Microsoft Store.
