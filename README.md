@@ -53,9 +53,6 @@ View'.
 9. During the installation, 'Run By SmartScreen' changes the Adobe Reader 10+/DC 'Protected View' setting, similarly to the default 'Protected View' setting in MS Office 2010+. So, 'Protected View' is applied when MS Office and Adobe Acrobat Reader 10+/DC are used for
 opening the popular documents (DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF). Other MS Office documents are considered as unsafe
 (see point 3).
-
-9. Other files (ZIP archives, media, photos, etc.) are opened normally without warnings.
-
 .
 
 The program has the hardcoded list of unsafe (potentially dangerous) file extensions:
