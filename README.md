@@ -3,7 +3,7 @@
 ## PROGRAM INFO
 
 'Run By Smartscreen' works on Windows 8 and higher versions that support SmartScreen. The application was coded and compiled with AutoIt v3.3.14.2 . 
-Run By Smartscreen' is a very simple idea to safely open/run the new files via the option on the Explorer right-click context menu. 'Run By Smartscreen' can mark files with MOTW, so they are treated as downloaded from the Internet. This forces the SmartScreen check before running the executable with MOTW. Furthermore, the popular documents marked with MOTW will be opened in 'Protected View', if the document application has such ability (like MS Office 2010+ and Adobe Acrobat Reader 10+). Many file types with unsafe extensions (over 300 extensions) will be blocked when 'Run By Smartscreen' to minimize the chances of infection.
+Run By Smartscreen' is a very simple idea to safely open/run the new files via the option on the Explorer right-click context menu. 'Run By Smartscreen' can mark files with MOTW, so they are treated as downloaded from the Internet. This forces the SmartScreen check before running the executable with MOTW. Furthermore, the popular documents marked with MOTW will be opened in 'Protected View', if the document application has such ability (like MS Office 2010+ and Adobe Acrobat Reader 10+). Many file types with unsafe extensions will be blocked when 'Run By Smartscreen' to minimize the chances of infection.
 
 
 ## Why the SmartScreen?
@@ -39,17 +39,22 @@ SmartScreen before running.
 
 4. Shortcuts with a command line in the 'Target' area, are always blocked and the program shows an alert.
 
-5. Compressed archives not supported by Windows build-in unpacker  (.7z, .arj, .rar, .zipx) are not opened - only the short instruction
-is displayed.
+5. Compressed archives not supported by Windows build-in unpacker  (.7z, .arj, .bz, .bzip, .bz2, .bzip2, .fat, .lha, .lzh, .r00-09,
+.rar, .rev, .xz, .zipx) are not opened - only the short instruction is displayed.
 
-6. Popular formats related to MS Office and Adobe Acrobat Reader (DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF) are opened with the
-warning instruction, and the MOTW is added to the file.
+6. Popular formats related to MS Office and Adobe Acrobat Reader (DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF) are opened with
+the warning instruction, and the MOTW is added to the file. These documents are always opened via 'Run By SmartScreen' in 'Protected 
+View'. 
 
-7. During the installation, 'Run By SmartScreen' changes the Adobe Reader 10+/DC 'Protected View' setting, similarly to the default 'Protected View' setting in MS Office 2010+. So, 'Protected View' is applied when MS Office and Adobe Acrobat Reader 10+/DC are used for
+7. The disk image files (.img, .iso, .ntfs, .vhd, .vhdx) are not opened - only the short instruction is displayed. 
+
+8. Other files (ZIP archives, media, photos, etc.) are opened normally without warnings.
+
+9. During the installation, 'Run By SmartScreen' changes the Adobe Reader 10+/DC 'Protected View' setting, similarly to the default 'Protected View' setting in MS Office 2010+. So, 'Protected View' is applied when MS Office and Adobe Acrobat Reader 10+/DC are used for
 opening the popular documents (DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF). Other MS Office documents are considered as unsafe
 (see point 3).
 
-8. Other files (ZIP archives, media, photos, etc.) are opened normally without warnings.
+9. Other files (ZIP archives, media, photos, etc.) are opened normally without warnings.
 
 .
 
