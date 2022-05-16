@@ -1,9 +1,9 @@
-# RunBySmartScreen ver. 4.0.0.1 (January 2022)
+# RunBySmartScreen ver. 4.0.1.0 (May 2022)
 
 ## PROGRAM INFO
 
-'Run By Smartscreen' was coded and compiled with AutoIt v3.3.14.2 . 
-Run By Smartscreen' is a very simple idea to safely open/run the new files via the option on the Explorer right-click context menu. 'Run By Smartscreen' can mark files with MOTW, so they are treated as downloaded from the Internet. This forces the SmartScreen check before running the executable with MOTW. Furthermore, the popular documents marked with MOTW will be opened in 'Protected View', if the document application has such ability (like MS Office 2010+ and Adobe Acrobat Reader 10+). Many file types with unsafe extensions (over 250 extensions) will be blocked when 'Run By Smartscreen' to minimize the chances of infection.
+'Run By Smartscreen' works on Windows 8 and higher versions that support SmartScreen. The application was coded and compiled with AutoIt v3.3.14.2 . 
+Run By Smartscreen' is a very simple idea to safely open/run the new files via the option on the Explorer right-click context menu. 'Run By Smartscreen' can mark files with MOTW, so they are treated as downloaded from the Internet. This forces the SmartScreen check before running the executable with MOTW. Furthermore, the popular documents marked with MOTW will be opened in 'Protected View', if the document application has such ability (like MS Office 2010+ and Adobe Acrobat Reader 10+). Many file types with unsafe extensions (over 300 extensions) will be blocked when 'Run By Smartscreen' to minimize the chances of infection.
 
 
 ## Why the SmartScreen?
