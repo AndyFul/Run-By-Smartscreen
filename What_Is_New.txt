@@ -1,3 +1,6 @@
+Version 4.0.1.1
+Added a new digital certificate.
+
 Version 4.0.1.0
 Added several new extensions (archives, disk images).
 
