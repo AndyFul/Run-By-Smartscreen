@@ -1,4 +1,4 @@
-# RunBySmartScreen ver. 4.0.1.1 (May 2022)
+# RunBySmartScreen ver. 4.0.1.1 (July 2022)
 
 ## PROGRAM INFO
 
