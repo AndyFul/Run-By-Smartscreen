@@ -16,7 +16,6 @@ Advanced users can apply 'Run By SmartScreen' for EXE and MSI installers (from s
 SmartScreen check. Not Advanced users should consistently use 'Run By SmartScreen' for all new files.
 
 
-
 ## Why the SmartScreen?
 
 The SmartScreen technology is one of the best for fighting 0-day malware files.
@@ -46,10 +45,9 @@ context menu?* will be shown. Choose the 'NO' button.
 ## How it works
 
 This program is intended to help inexperienced users to open all new files. If the user tries to open the file with 'Run By SmartScreen' it works as follows:
-1. Executables (COM, EXE, MSI, and SCR files) located in the System Space (= inside 'C:\Windows', 'C:\Program Files', 'C:\Program 
-   Files (x86)') are opened normally, without SmartScreen check.
-2. The above executables located in the User Space (= outside 'C:\Windows', 'C:\Program Files', 'C:\Program Files (x86)') are checked 
-   by SmartScreen before running.
+1. Executables (COM, EXE, MSI, and SCR files) located in the System Space (= inside %WinDir%, %ProgramFiles%, and %ProgramFiles(x86)%) are opened normally, without SmartScreen check.
+2. The above executables located in the User Space (= outside %WinDir%, %ProgramFiles%, and %ProgramFiles(x86)%) are checked by
+   SmartScreen before running.
 3. Files from the User Space, with potentially dangerous extensions (scripts, most MS Office files, etc.), are not allowed to open 
    (similarly to Software Restriction Policies), and the program shows an alert.
 4. Shortcuts with a command line in the 'Target' area, are always blocked and the program shows an alert.
@@ -57,8 +55,7 @@ This program is intended to help inexperienced users to open all new files. If t
    .r00-09, .rev, .xz, .zipx) are not opened - only the short instruction is displayed.
 6. Popular formats related to MS Office and Adobe Acrobat Reader (DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ONE, ACCDB, PDF) are opened 
    with the warning instruction, and the MOTW is added to the file. When the standalone version is used, these documents are always 
-   opened via 'Run By SmartScreen' in 'Protected View'. When 'Run By SmartScreen' is installed via Hard_Configurator, the Protected 
-   View is configured by other Hard_Configurator settings.
+   opened via 'Run By SmartScreen' in 'Protected View'. 
 7. The disk image files (.img, .iso, .ntfs, .vhd, .vhdx) are not opened - only the short instruction is displayed.
 8. Other files (ZIP archives, media, photos, etc.) are opened normally without warnings.
 
