@@ -8,8 +8,8 @@ https://github.com/AndyFul/Run-By-Smartscreen/raw/master/RunBySmartscreen_4011.e
 
 'Run By SmartScreen' works only with Windows 8 and higher versions.
 It is based on a very simple idea to open/run safely the new files, when using right-click Explorer context menu. It covers in a smart 
-way file opening in the User Space ( = everything outside 'C:\Windows', 'C:\Program Files', 'C:\Program Files (x86)'). This program 
-can manage files in the User Space, as follows:
+way file opening in the User Space ( = everything outside %WinDir%, %ProgramFiles%, and %ProgramFiles(x86)% ). 
+This program can manage files in the User Space, as follows:
 1. Run/check executables with SmartScreen.
 2. Block files with potentially dangerous extensions.
 3. Open vulnerable files with the warning instruction.
