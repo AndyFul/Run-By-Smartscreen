@@ -130,4 +130,3 @@ HKCR\WSHFile!NoIsShortcut
 
 The standalone installation changes the policies in the HKLM Registry Hive to set Protected View in Adobe Acrobat Reader.
 
-
