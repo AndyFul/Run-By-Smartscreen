@@ -1,5 +1,9 @@
+Version 5.0.0.0
+Added new digital certificate.
+Some code was adjusted to the upcoming version of SimpleWindowsHardening.
+
 Version 4.1.1.1
-Added ONE (OneNote) file extesion.
+Added ONE (OneNote) file extension.
 
 Version 4.0.1.1
 Added a new digital certificate.
@@ -9,7 +13,7 @@ Added several new extensions (archives, disk images).
 
 Version 4.0.0.1
 Added APPX, APPXBUNDLE, MSIX, and MSIXBUNDLE extensions (Universal Windows Platform installation packages).
-Such packages are used to install UWP apps from the web browser or via downloaded packages ouside the Microsoft Store.
+Such packages are used to install UWP apps from the web browser or via downloaded packages outside the Microsoft Store.
 The safe method is installing UWP apps directly from Microsoft Store.
 
 Version 4.0.0.0
@@ -21,7 +25,7 @@ Version 3.1.0.1
 
 Version 3.1.0.0
 1. Corrected the procedure of checking if SmartScreen is enabled.
-2. The executables were first unsigned, but replaced (in August 2019) by digitally signed binaries (Certum Code Signing certificate).
+2. The executables were first unsigned but replaced (in August 2019) by digitally signed binaries (Certum Code Signing certificate).
 
 Version 3.0.1.0
 1. Corrected Help information.
@@ -33,7 +37,7 @@ Version 3.0.0.0
 CPL, DLL, JSE, OCX, and VBE are not checked by SmartScreen, but instead, they were added to the list of unsafe extensions.
 2. During the installation, 'Run By SmartScreen' changes Adobe Acrobat Reader 10+/DC 'Protected View' setting, similarly to the default
 'Protected View' setting in MS Office 2010+.
-3. 'Protected View' is applied when MS Office and Adobe Acrobat Reader 10+/DC are used for opening the popular documents (DOC, DOCX,
+3. 'Protected View' is applied when MS Office and Adobe Acrobat Reader 10+/DC are used for opening popular documents (DOC, DOCX,
 XLS, XLSX, PUB, PPT, PPTX, ACCDB, PDF) and those documents are opened via Run By SmartScreen. Other MS Office document extensions are
 added to the list of unsafe extensions.
 4. The list of unsafe extensions was extended (over 250 extensions): ACCDA, ACCDE, ACCDR, ACCDT, ACM, AD, ADE, ADN, ADP, AIR, APP,
@@ -50,13 +54,13 @@ VB, VBE, VBP, VBS, VSMACROS, VSS, VST, VSW, VXD, WAS, WBK, WEBLOC, WEBPNP, WEBSI
 XLL, XLM, XLSB, XLSM, XLT, XLTM, XLTX, XLW, XML, XNK, XPI, XPS, Z, ZFSENDTOTARGET, ZLO, ZOO.
 
 Version 2.0.1.0
-1. The bug with SCR extension check was corrected.
+1. The bug with the SCR extension check was corrected.
 2. The PIF extension was removed (not supported in Windows 8+).
-3. The URL extension was removed (not supported by Explorer context menu).
+3. The URL extension was removed (not supported by the Explorer context menu).
 4. Explorer context menu option for WSH extension was added.
 5. Alerts for DLL and OCX files were added - those files cannot be run directly, so only  'Mark of Web' is added. If some program is
-going to open them, then SmartScreen check will be triggered. 
-6. Shortcuts with command line in 'Target' area are always blocked, and the program shows an alert.
+going to open them, then a SmartScreen check will be triggered. 
+6. Shortcuts with the CommandLine in the 'Target' area are always blocked, and the program shows an alert.
 7. The installation process was simplified.
 
 Version 1.0.3.0
@@ -69,6 +73,6 @@ program shows an alert (similar to Software Restriction Policies).
 3. The executables located in the User Space are checked by SmartScreen before the run.
 4. Other files (media, photos, documents, etc.) are opened normally, without SmartScreen check.
 
-The program has hard-coded list of dangerous extensions (not supported by SmartScreen App Reputation on run):
+The program has a hard-coded list of dangerous extensions (not supported by SmartScreen App Reputation on run):
 WSH, WSF, WSC, WS, VBS, VB, URL, SHS, SCT, REG, PS1, PIF, PCD, MST, MSP, MSC, MDE, MDB, JS, JAR, ISP, INS, INF, HTA, HLP, CRT, CHM,
-BAS,ADP, ADE.
+BAS, ADP, ADE.
