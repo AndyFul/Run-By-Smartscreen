@@ -1,3 +1,6 @@
+# RunBySmartScreen ver. 5.0.1.1 (July 2022)
+
+
 # RunBySmartScreen ver. 5.0.0.0 (July 2023)
 https://github.com/AndyFul/Run-By-Smartscreen/raw/master/RunBySmartscreen_5000.exe
 
