@@ -1,3 +1,6 @@
+Version 5.0.1.1
+Some code was adjusted to work with WindowsHybridHardening Light.
+
 Version 5.0.0.0
 Added new digital certificate.
 Some code was adjusted to the upcoming version of SimpleWindowsHardening.
