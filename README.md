@@ -91,7 +91,7 @@ The above list is based on SRP, Outlook Web Access, Gmail, and Adobe Acrobat Rea
 The SmartScreen Filter in Windows 8+ allows some vectors of infection listed below:
 
 A) You have got the executable file by using:
-* the downloader or torrent application (EagleGet, utorrent etc.);
+* the downloader or torrent application (EagleGet, torrent, etc.);
 * container format file (ZIP, 7Z, ARJ, RAR, etc.), except for some unpackers like Windows built-in unpacker.
 * CD/DVD/Blue-ray disc;
 * CD/DVD/Blue-ray disc image (iso, bin, etc.);
