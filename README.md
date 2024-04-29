@@ -7,18 +7,15 @@ https://github.com/AndyFul/Run-By-Smartscreen/raw/master/RunBySmartscreen_5000.e
 # RunBySmartScreen ver. 4.1.1.1 (May 2023)
 https://github.com/AndyFul/Run-By-Smartscreen/raw/master/RunBySmartscreen_4111.exe
 
-# RunBySmartScreen ver. 4.0.1.1 (July 2022)
-https://github.com/AndyFul/Run-By-Smartscreen/raw/master/RunBySmartscreen_4011.exe
-
 ## PROGRAM INFO
 
 'Run By SmartScreen' works only with Windows 8 and higher versions.
-It is based on a very simple idea to open/run safely the new files, when using right-click Explorer context menu. It covers in a smart 
+It is based on a very simple idea to open/run safely the new files when using the right-click Explorer context menu. It covers in a smart 
 way file opening in the User Space ( = everything outside %WinDir%, %ProgramFiles%, and %ProgramFiles(x86)% ). 
 This program can manage files in the User Space, as follows:
 1. Run/check executables with SmartScreen.
 2. Block files with potentially dangerous extensions.
-3. Open vulnerable files with the warning instruction.
+3. Open vulnerable files with the warning instructions.
 4. Prevent DLL hijacking of EXE files.
 5. Safe files are run/opened without warnings.
 
@@ -40,7 +37,7 @@ when files do not have a "Mark of the Web", and then SmartScreen Filter simply i
 ## INSTALLATION
 
 Run the executable  RunBySmartScreen_????.exe . The message: *Do you want to add the 'Run By SmartScreen' option in the Explorer 
-context menu?* will be shown. Choose the 'YES' button. After that, the 'Run By SmartScreen' option should appear in the right click 
+context menu?* will be shown. Choose the 'YES' button. After that, the 'Run By SmartScreen' option should appear in the right-click 
 Explorer context menu.
 
 
@@ -69,7 +66,7 @@ This program is intended to help inexperienced users to open all new files. If t
 7. The disk image files (.img, .iso, .ntfs, .vhd, .vhdx) are not opened - only the short instruction is displayed.
 8. Other files (ZIP archives, media, photos, etc.) are opened normally without warnings.
 
-The program has hardcoded list of unsafe (potentially dangerous) file extensions:
+The program has a hardcoded list of unsafe (potentially dangerous) file extensions:
 ACCDA, ACCDE, ACCDR, ACCDT, ACCDU, ACM, AD, ADE, ADN, ADP, AIR, APP, APPLICATION, APPREF-MS, APPX, APPXBUNDLE, ARC, ASA, ASP, ASPX, 
 ASX, AX, BAS, BAT, BGI, CAB, CDB, CER, CFG, CHI, CHM, CLA, CLASS, CLB, CMD, CNT, CNV, COMMAND, CPL, CPX, CRAZY, CRT, CRX, CSH, CSV, 
 DB, DCR, DER, DESKLINK, DESKTOP, DIAGCAB, DIF, DIR, DLL, DMG, DOCB, DOCM, DOT, DOTM, DOTX, DQY, DRV, ECF, ELF, FON, FXP, GADGET, GLK, 
