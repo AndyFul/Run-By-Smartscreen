@@ -1,9 +1,10 @@
 Version 5.0.1.1
+Added new digital certificate (July 2024)
 Some code was adjusted to work with WindowsHybridHardening Light.
 
 Version 5.0.0.0
-Added new digital certificate.
-Some code was adjusted to the upcoming version of SimpleWindowsHardening.
+Added new digital certificate (July 2023).
+Some code was adjusted to the upcoming version of Windows Hybrid Hardening.
 
 Version 4.1.1.1
 Added ONE (OneNote) file extension.
