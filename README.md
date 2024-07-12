@@ -4,9 +4,6 @@ https://github.com/AndyFul/Run-By-Smartscreen/raw/master/RunBySmartscreen_5011.e
 # RunBySmartScreen ver. 5.0.0.0 (July 2023)
 https://github.com/AndyFul/Run-By-Smartscreen/raw/master/RunBySmartscreen_5000.exe
 
-# RunBySmartScreen ver. 4.1.1.1 (May 2023)
-https://github.com/AndyFul/Run-By-Smartscreen/raw/master/RunBySmartscreen_4111.exe
-
 ## PROGRAM INFO
 
 'Run By SmartScreen' works only with Windows 8 and higher versions.
