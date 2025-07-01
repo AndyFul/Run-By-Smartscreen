@@ -1,0 +1,3 @@
+dir d:\
+pause
+
