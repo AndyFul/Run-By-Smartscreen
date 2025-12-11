@@ -1,13 +1,10 @@
-# RunBySmartScreen ver. 5.0.1.1 (July 2024)
-https://github.com/AndyFul/Run-By-Smartscreen/raw/master/RunBySmartscreen_5011.exe
-
-# RunBySmartScreen ver. 5.0.0.0 (July 2023)
-https://github.com/AndyFul/Run-By-Smartscreen/raw/master/RunBySmartscreen_5000.exe
+# RunBySmartScreen ver. 5.1.0.0 (December 2025)
+https://github.com/AndyFul/Run-By-Smartscreen/raw/refs/heads/master/RunBySmartscreen_5100.exe
 
 ## PROGRAM INFO
 
 'Run By SmartScreen' works only with Windows 8 and higher versions.
-It is based on a very simple idea to open/run safely the new files when using the right-click Explorer context menu. It covers in a smart 
+It is based on a very simple idea to open/run the new files safely when using the right-click Explorer context menu. It covers in a smart 
 way file opening in the User Space ( = everything outside %WinDir%, %ProgramFiles%, and %ProgramFiles(x86)% ). 
 This program can manage files in the User Space, as follows:
 1. Run/check executables with SmartScreen.
@@ -54,8 +51,8 @@ This program is intended to help inexperienced users to open all new files. If t
    SmartScreen before running.
 3. Files from the User Space, with potentially dangerous extensions (scripts, most MS Office files, etc.), are not allowed to open 
    (similarly to Software Restriction Policies), and the program shows an alert.
-4. Shortcuts with a command line in the 'Target' area, are always blocked and the program shows an alert.
-5. Compressed archives not supported by Windows build-in unpacker  (.7z, .arj, .bz, .bzip, .bz2, .bzip2, .fat, .lha, .lzh, .rar, 
+4. Shortcuts with a command line in the 'Target' area are always blocked, and the program shows an alert.
+5. Compressed archives not supported by the Windows built-in unpacker  (.7z, .arj, .bz, .bzip, .bz2, .bzip2, .fat, .lha, .lzh, .rar, 
    .r00-09, .rev, .xz, .zipx) are not opened - only the short instruction is displayed.
 6. Popular formats related to MS Office and Adobe Acrobat Reader (DOC, DOCX, XLS, XLSX, PUB, PPT, PPTX, ONE, ACCDB, PDF) are opened 
    with the warning instruction, and the MOTW is added to the file. When the standalone version is used, these documents are always 
