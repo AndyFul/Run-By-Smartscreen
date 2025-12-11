@@ -1,5 +1,9 @@
+Version 5.1.0.0
+Added new digital certificate (November 2025).
+Improved anti-tampering.
+
 Version 5.0.1.1
-Added new digital certificate (July 2024)
+Added new digital certificate (July 2024).
 Some code was adjusted to work with WindowsHybridHardening Light.
 
 Version 5.0.0.0
@@ -80,3 +84,4 @@ program shows an alert (similar to Software Restriction Policies).
 The program has a hard-coded list of dangerous extensions (not supported by SmartScreen App Reputation on run):
 WSH, WSF, WSC, WS, VBS, VB, URL, SHS, SCT, REG, PS1, PIF, PCD, MST, MSP, MSC, MDE, MDB, JS, JAR, ISP, INS, INF, HTA, HLP, CRT, CHM,
 BAS, ADP, ADE.
+
